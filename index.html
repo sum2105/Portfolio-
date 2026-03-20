@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script> 
+
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+
+        .sections-container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 80px 10%;
+            gap: 30px;
+        }
+
+        .box{
+            flex: 1;
+            background: palevioletred;
+            padding: 30px;
+            text-align: center;
+            border-radius: 15px;
+            transition: 0.3s;
+        }
+
+        .box:hover{
+            transform: translateY(-10px);
+            box-shadow: 0 0 20px palevioletred;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<header class="header">
+    <a href="#" class="logo">Portfolio</a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skill</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HOME -->
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Sumaira Akbar</h1>
+        <h3>And I'm a <span class="text"></span></h3>
+
+       
+        <div class="home-sci">
+            <a href="https://www.facebook.com/" target="_blank"><i class="bx bxl-facebook"></i></a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="bx bxl-instagram"></i></a>
+            <a href="https://wa.me/your-number" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/sumaira-akbar-b53615378/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        </div>
+
+        <a href="#about" class="btn-box">More About Me</a>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="20260317_150555(0).jpg">
+    </div>
+
+    <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <p>
+             I am a first-year B.Tech student at Indira Gandhi Delhi Technical University for Women (IGDTUW), pursuing Mechanical and Automation Engineering. <br><br>
+      I have a strong interest in integrating technology with core engineering concepts to build innovative and practical solutions.
+      Currently, I am developing my problem-solving skills through Data Structures and Algorithms (DSA) in C++, while also exploring web development. 
+      I am passionate about learning, building, and continuously improving my technical skills in both software and core domains.
+        </p>
+    </div>
+</section>
+
+<!-- SIDE BY SIDE layout -->
+<section class="sections-container">
+
+    <div class="box" id="skills">
+        <h2>My Skills</h2><br>
+        <p>HTML, CSS, JavaScript, C++, C, Figma UI, Communication </p>
+    </div>
+
+    <div class="box" id="portfolio">
+        <h2>My Projects</h2><br>
+       <a href="https://69077c39f6ead5cbae460b03--thunderous-cascaron-11fe9d.netlify.app/"> PARK EASE</a>
+    </div>
+
+    <div class="box" id="contact">
+        <h2>Contact</h2><br> 
+        <p>Email: sumairaakbar515@gmail.com</p>
+    </div>
+
+</section>
+
+<script src="main.js"></script>
+
+<h3>Looking forward to connect!</h3>
+
+</body>
+</html>
